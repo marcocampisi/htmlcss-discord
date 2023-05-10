@@ -169,7 +169,7 @@ main > section:nth-child(2n) {
     margin: 0 10px;
 }
 
-#download {
+.download {
     color: black;
     font-size: 1.2em;
     background-color: white;
@@ -178,15 +178,25 @@ main > section:nth-child(2n) {
     border-radius: 20px;
 }
 
-#download > .fa-down-long {
+.download > .fa-down-long {
     color: black;
 }
 
-#download:hover {
+.download:hover {
     background-color: lightgray;
 }
 
-#browser {
+#bottom-download {
+    color: white;
+    background-color: #647DD6;
+    margin: 50px;
+}
+
+#bottom-arrow {
+    color: white;
+}
+
+.browser {
     color: white;
     font-size: 1.2em;
     background-color: #13171A;
@@ -195,7 +205,7 @@ main > section:nth-child(2n) {
     border-radius: 20px;
 }
 
-#browser:hover {
+.browser:hover {
     background-color: #333c43;
 }
 
