@@ -74,7 +74,7 @@ li > a {
 .my-section {
     display:flex;
     max-width: 60%;
-    height: 400px;
+    height: 100%;
     align-items: flex-start;
     justify-content: center;
 }
@@ -97,7 +97,7 @@ main > section:nth-child(2n) {
 }
 
 .main-container {
-    height: 300px;
+    height: 100%;
 }
 
 #mc-1 {
@@ -126,23 +126,32 @@ main > section:nth-child(2n) {
 }
 
 .section-container {
-    width: 70%;
-    height: 30%;
-    text-align: center;
+    max-width: 100%;
+    text-align: left;
 }
 
 .section-container > * {
     padding: 20px;
 }
 
+.info > * {
+    color: black;
+    margin: 20px auto;
+}
+
 #motto-header {
     font-size: 4em;
 }
 
-#motto-main {
-    color: black;
+.motto-main {
     font-size: 2.5em;
     text-align: left;
+}
+
+.image {
+    max-width: 100%;
+    padding: 20px;
+    align-self: center;
 }
 
 .button-container {
