@@ -277,3 +277,7 @@ main > section:nth-child(2n) {
 #signup:hover {
     background-color: #414f84;
 }
+
+.blue-text {
+    color: #647DD6;
+}
