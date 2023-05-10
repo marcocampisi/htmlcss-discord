@@ -277,23 +277,3 @@ main > section:nth-child(2n) {
 #signup:hover {
     background-color: #414f84;
 }
-
-
-/* DEBUG */
-
-/* .debug header, .debug footer {
-    background-color: lightgray;
-    height: 100px;
-}
-
-nav > * {
-    border: 2px dashed black;
-}
-
-div > img, a {
-    padding: 0 50px;
-}
-
-.section-container {
-    border: 2px dashed black;
-} */
