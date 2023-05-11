@@ -281,3 +281,8 @@ main > section:nth-child(2n) {
 .blue-text {
     color: #647DD6;
 }
+
+.stars {
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+}
