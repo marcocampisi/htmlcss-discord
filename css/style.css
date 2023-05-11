@@ -59,6 +59,27 @@ li > a {
     align-items: center;
 }
 
+.wave-top::before {
+    content: "";
+    background-image: url("../img/wave.svg");
+    display: block;
+    height: 100px;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+}
+
+.wave-bottom::after {
+    content: "";
+    background-image: url("../img/wave.svg");
+    display: block;
+    width: 100%;
+    height: 100px;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+}
+
 .my-row {
     display: flex;
     flex-wrap: wrap;
